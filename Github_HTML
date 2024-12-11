@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><h1>Registeration form</h1></p>
+    
+    <br>
+    <form action="/action.ph"></form>
+    First name :
+        <input type="text" placeholder="Enter your first name">
+        <br>
+        <h1></h1>
+     name   <input type="text"placeholder="Enter your last name">
+    </form>
+    <br>
+    <h1></h1>
+    <form >
+        Gender:
+        <label for="100">
+            <input type="radio" value="male" name="Gender" id="100">male
+        </label>
+        <label for="101">
+            <input type="radio" value="Female" name="Gender" id="101">Female
+        </label>
+        <br>
+        <h1></h1>
+    </form>    
+        Days :
+        <select name="Days" id="Days">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+        Months :
+        <select name="Months" id="Months">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+        </select>
+        Years :
+        <select name="years" id="years">
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+
+        <br>
+        <h1></h1>
+    <form >
+        
+        Gmail :
+            <input type="text" placeholder="Enter your gmail">
+        <br>
+        <h1></h1>
+        phone number :
+            <input type="text">
+        <br>
+        <h1></h1>
+        password :
+            <input type="password" placeholder="Enter your password">
+        <br>
+        <h1></h1>
+        Confirm password :
+            <input type="password" placeholder="Confirm password">
+
+        <br>
+        <h1></h1>
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
