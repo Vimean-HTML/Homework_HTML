@@ -1,0 +1,13 @@
+h1{
+    color: black;
+    text-decoration: underline;
+}
+p{
+    font-size: medium;
+    color: black;
+}
+body{
+    background-image: url('https://img.pikbest.com/backgrounds/20190710/simple-fashion-style-geometric-ui-brochure-background-poster_1898091.jpg!sw800');
+    background-attachment: fixed;
+    height: 100vh;
+}
