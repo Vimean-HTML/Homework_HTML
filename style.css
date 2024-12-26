@@ -1,13 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: palevioletred;
+}
+.container {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px 100px;
+}
+#todo{
+    color: whitesmoke;
+}
 h1{
-    color: black;
-    text-decoration: underline;
+    color: burlywood;
 }
-p{
-    font-size: medium;
-    color: black;
+.container span {
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 6px;
+    border-radius: 8px;
+    background: black;
+    transform-origin: 128px;
+    transform: scale(2.2) rotate(calc(var(--i) * (360deg /50)));
+    animation: blink 3s linear infinite;
+    animation-delay: calc(var(--i) * (3s /50));
 }
-body{
-    background-image: url('https://img.pikbest.com/backgrounds/20190710/simple-fashion-style-geometric-ui-brochure-background-poster_1898091.jpg!sw800');
-    background-attachment: fixed;
-    height: 100vh;
+@keyframes blink {
+    0% {
+        background: brown;
+    }
+    25%{
+        background: burlywood;
+    }
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+button{
+    position: relative;
+    margin: 25px 0;
 }
