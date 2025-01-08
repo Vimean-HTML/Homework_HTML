@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: azure;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.todo-item {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.completed {
+    text-decoration: line-through;
+}
+.container {
+    margin: 200px 500px 200px;
+}
